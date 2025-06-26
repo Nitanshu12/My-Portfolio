@@ -1,0 +1,36 @@
+import React from 'react';
+import '../styles/Hero.css';
+import heroImage from '../assets/logo.jpeg';
+import { IoDiamond } from "react-icons/io5";
+
+const Hero = () => {
+  return (
+    <section className="hero-section">
+      <div className="hero-content">
+        <div className="available-badge">
+          <IoDiamond />
+          <span>Available for new projects</span>
+        </div>
+        <h1 className="hero-title">
+          Hello, I'm <span className="highlight">Nitanshu</span>
+        </h1>
+        <p className="hero-subtitle">
+          A passionate designer & developer crafting beautiful digital experiences that connect people and brands.
+        </p>
+        <div className="hero-buttons">
+          <a href="#contact" className="btn btn-primary">
+            Let's Work Together
+          </a>
+          <a href="#projects" className="btn btn-secondary">
+            View My Work
+          </a>
+        </div>
+      </div>
+      <div className="hero-image-container">
+        <img src={heroImage} alt="Sarah" className="hero-image" />
+      </div>
+    </section>
+  );
+};
+
+export default Hero; 

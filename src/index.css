@@ -1,0 +1,31 @@
+/* Reset and Global Styles */
+
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #FFFBF5;
+  --text-primary: #2D2D2D;
+  --text-secondary: #5A5A5A;
+  --gradient-start: #FF8A5B;
+  --gradient-end: #FF4D6D;
+  --button-secondary-bg: rgba(255, 255, 255, 0.8);
+  --border-color: #EAEAEA;
+  --nitanshu-color:#000319
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
