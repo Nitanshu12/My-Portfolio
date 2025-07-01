@@ -19,9 +19,6 @@ const skills = [
         description: 'Building responsive, user-friendly websites using modern technologies',
         icon: <FaCode size={36} />
     },
-    {
-
-    }
 ]
 const skillVariants = {
     offscreen: {

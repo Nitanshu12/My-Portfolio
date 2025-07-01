@@ -1,0 +1,117 @@
+.experience-section {
+  background: var(--bg-secondary);
+  padding: 64px 0 64px 0;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.timeline-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  min-height: 400px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 60px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #00e0d3 0%, #ffb86c 100%);
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 52px;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, #00e0d3 0%, #ffb86c 100%);
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  z-index: 2;
+}
+
+.timeline-cards {
+  margin-left: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.timeline-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.06);
+  padding: 32px 36px 28px 36px;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  max-width: 700px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.timeline-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.timeline-meta {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.timeline-desc {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  margin-top: 8px;
+}
+.timeline-date {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+@media (max-width: 700px) {
+  .timeline-container {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 300px;
+  }
+  .timeline-line, .timeline-dot {
+    left: 20px;
+  }
+  .timeline-cards {
+    margin-left: 60px;
+    gap: 20px;
+  }
+  .timeline-card {
+    padding: 22px 14px 18px 18px;
+    max-width: 98vw;
+  }
+  .experience-title {
+    font-size: 2rem;
+  }
+} 

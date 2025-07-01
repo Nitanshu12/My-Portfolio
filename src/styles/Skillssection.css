@@ -21,6 +21,26 @@
     transition: transform 0.3s ease;
 }
 .skills-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
     box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
+.skills-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    margin-bottom: 18px;
+    font-size: 2.2rem;
+    color: #fff;
+  }
+  .skill-icon-gradient1 {
+    background: linear-gradient(135deg, #ffb86c 0%, #ff6a6a 100%);
+  }
+  .skill-icon-gradient2 { 
+    background: linear-gradient(135deg, #ff8cdd 0%, #ffb86c 100%);
+  }
+  .skill-icon-gradient3 {
+    background: linear-gradient(135deg, #6adfff 0%, #ffb86c 100%);
+  }
