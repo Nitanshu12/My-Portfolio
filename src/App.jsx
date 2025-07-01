@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AssistSection from './components/AssistSection';
+import SkillsSection from './components/SkillsSection';
 import './index.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <AssistSection />
+        <SkillsSection />
       </main>
     </>
   )
