@@ -35,7 +35,7 @@ const skillVariants = {
 }
 
             const SkillsSection = () => (
-                <section className="skills-section">
+                <section className="skills-section section-container">
                     <motion.h2 initial={{ opacity: 0, y: -30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="assist-title">
                         Skills & Expertise
                     </motion.h2>

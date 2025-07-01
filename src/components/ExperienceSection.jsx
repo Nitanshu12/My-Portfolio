@@ -19,7 +19,7 @@ const ExperienceSection = () => {
   const dotY = useTransform(scrollYProgress, [0, 1], [0, 400]); // Adjust 400 for timeline height
 
   return (
-    <section className="experience-section" id="experience" ref={ref}>
+    <section className="experience-section section-container" id="experience" ref={ref}>
       <h2 className="experience-title">My Experience</h2>
       <div className="timeline-container">
         <motion.div className="timeline-dot" style={{ y: dotY }} />

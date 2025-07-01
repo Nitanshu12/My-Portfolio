@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import AssistSection from './components/AssistSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
+import Projects from './components/Projects';
 import './index.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <AssistSection />
         <SkillsSection />
         <ExperienceSection />
+        <Projects />
       </main>
     </>
   )
