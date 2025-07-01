@@ -12,6 +12,7 @@
   flex: 1;
   max-width: 600px;
   animation: slideInFromLeft 1s ease-out;
+  
 }
 
 .available-badge {

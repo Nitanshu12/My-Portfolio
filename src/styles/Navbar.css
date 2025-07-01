@@ -38,7 +38,7 @@
 }
 
 .navbar-links a:hover {
-  color: var(--text-primary);
+  color: var(--gradient-end);
 }
 
 .navbar-cta {
