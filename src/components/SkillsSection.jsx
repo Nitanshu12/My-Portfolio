@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import '../styles/SkillsSection.css';
+import '../styles/Skillssection.css';
 import { FaPaintBrush, FaCode } from 'react-icons/fa';
 
 const skills = [
