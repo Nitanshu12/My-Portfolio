@@ -44,3 +44,18 @@
   .skill-icon-gradient3 {
     background: linear-gradient(135deg, #6adfff 0%, #ffb86c 100%);
   }
+@media (max-width: 700px) {
+  .skills-section {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .skills-cards {
+    justify-items: center;
+    align-items: center;
+  }
+  .skills-card {
+    align-items: center;
+    text-align: center;
+  }
+}

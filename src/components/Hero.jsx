@@ -12,7 +12,7 @@ const Hero = () => {
           <span>Available for new projects</span>
         </div>
         <h1 className="hero-title">
-          Hello, I'm <span className="highlight">Nitanshu</span>
+          Hello, I'm <span className="highlight">Nitanshu Goyal</span>
         </h1>
         <p className="hero-subtitle">
         Web Developer | UI/UX Enthusiast | Societal Change-Maker | Passionate About Innovation | Volleyball Player

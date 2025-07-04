@@ -115,9 +115,22 @@
   }
 }
 @media (max-width: 700px) {
+  .assist-section, .contact-section {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .assist-title, .assist-subtitle, .contact-title, .contact-subtitle {
+    text-align: center;
+    width: 100%;
+  }
+  .assist-cards, .contact-form {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
   .assist-cards {
     flex-direction: column;
-    align-items: center;
     gap: 24px;
   }
   .assist-card {

@@ -98,6 +98,24 @@
 }
 
 @media (max-width: 700px) {
+  .experience-section {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .experience-title {
+    text-align: center;
+    width: 100%;
+  }
+  .timeline-cards {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .timeline-card {
+    align-items: center;
+    text-align: center;
+  }
   .timeline-container {
     flex-direction: column;
     align-items: flex-start;
