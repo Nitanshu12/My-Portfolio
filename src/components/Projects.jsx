@@ -23,7 +23,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section className="projects-section section-container">
+        <section id="projects" className="projects-section section-container">
             <motion.h2 initial={{ opacity: 0, y: -30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="assist-title">
             Featured Projects
             </motion.h2>

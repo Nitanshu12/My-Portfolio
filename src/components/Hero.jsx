@@ -5,7 +5,7 @@ import { IoDiamond } from "react-icons/io5";
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <div className="hero-content">
         <div className="available-badge">
           <IoDiamond />

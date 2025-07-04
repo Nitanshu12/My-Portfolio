@@ -4,6 +4,7 @@ import AssistSection from './components/AssistSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
 import Projects from './components/Projects';
+import ContactSection from './components/Contact';
 import './index.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <SkillsSection />
         <ExperienceSection />
         <Projects />
+        <ContactSection />
       </main>
     </>
   )

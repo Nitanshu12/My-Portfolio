@@ -3,6 +3,7 @@ import { FaCode, FaPaintBrush, FaComments } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import '../styles/AssistSection.css';
 
+
 const cards = [
   {
     icon: <FaCode size={36} />, title: 'Web Development', desc: 'Modern, responsive websites built with latest technologies',
@@ -60,5 +61,4 @@ const AssistSection = () => (
     </motion.a>
   </section>
 );
-
-export default AssistSection; 
+export default AssistSection;
