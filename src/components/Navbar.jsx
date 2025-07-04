@@ -48,7 +48,7 @@ const Navbar = () => {
     <header className="header">
       <nav className="navbar">
         <div className="navbar-logo">
-          <a href="/">Nitanshu</a>
+          <a href="/">NJ</a>
         </div>
         <button
           className="navbar-hamburger"
