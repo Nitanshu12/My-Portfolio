@@ -15,7 +15,7 @@ const Hero = () => {
           Hello, I'm <span className="highlight">Nitanshu</span>
         </h1>
         <p className="hero-subtitle">
-          A passionate designer & developer crafting beautiful digital experiences that connect people and brands.
+        Web Developer | UI/UX Enthusiast | Societal Change-Maker | Passionate About Innovation | Volleyball Player
         </p>
         <div className="hero-buttons">
           <a href="#contact" className="btn btn-primary">
