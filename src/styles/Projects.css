@@ -14,6 +14,17 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+.project-card-cta-btn {
+    display: inline-block;
+}
 @media (min-width: 600px) {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);

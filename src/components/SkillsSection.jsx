@@ -7,17 +7,17 @@ const skills = [
     {
         name: 'UI/UX Design',
         description: 'Creating intuitive, visually appealing interfaces that enhance user engagement',
-        icon: <FaPaintBrush size={36} />
+        icon: <FaPaintBrush size={36} color='black' />
     },
     {
         name: 'Figma Design',
         description: 'Design and Prototyping',
-        icon: <FaPaintBrush size={36} />
+        icon: <FaPaintBrush size={36} color='black' />
     },
     {
         name: 'Web Development',
         description: 'Building responsive, user-friendly websites using modern technologies',
-        icon: <FaCode size={36} />
+        icon: <FaCode size={36} color='black' />
     },
 ]
 const skillVariants = {
