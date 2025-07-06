@@ -10,6 +10,13 @@ const experiences = [
     description: `I have recently started my journey in computer engineering and am currently in my freshman year. I'm eager to learn, explore new technologies, and build a strong foundation in this field. Excited for the challenges and opportunities ahead!`,
     date: '2024 - Present',
   },
+  {
+    title: 'Reliant Renewables',
+    location: 'Delhi, India',
+    institution: 'Newton School of Technology',
+    description: `I have recently started my journey in computer engineering and am currently in my freshman year. I'm eager to learn, explore new technologies, and build a strong foundation in this field. Excited for the challenges and opportunities ahead!`,
+    date: '2024 - Present',
+  },
   // Add more experiences here if needed
 ];
 

@@ -9,23 +9,29 @@ const skillsGrid = [
       { icon: 
         <i class="devicon-html5-plain-wordmark colored"></i>
       , label: 'HTML5' },
-      { icon: <i className="devicon-css3-plain colored" />, label: 'CSS3' },
+      { icon: <i className="devicon-css3-plain-wordmark colored" />, label: 'CSS3' },
       { icon: <i className="devicon-javascript-plain colored" />, label: 'JavaScript' },
-      { icon: <i className="devicon-python-plain colored" />, label: 'Python' },
+      { icon: <i className="devicon-python-plain-wordmark colored" />, label: 'Python' },
     ]
   },
   {
     title: 'Frameworks & Libraries',
     icons: [
-      { icon: <i className="devicon-react-original colored" />, label: 'React' },
-      { icon: <i className="devicon-bootstrap-plain colored" />, label: 'Bootstrap' },
-      { icon: <i className="devicon-tailwindcss-plain colored" />, label: 'Tailwind CSS' },
+      { icon: <i className="devicon-react-original-wordmark colored" />, label: 'React' },
+      { icon: <i className="devicon-bootstrap-plain-wordmark colored" />, label: 'Bootstrap' },
+      { icon: <i className="devicon-tailwindcss-plain-wordmark colored" />, label: 'Tailwind CSS' },
+      { icon: 
+        <i class="devicon-nextjs-original-wordmark colored"></i>
+      , label: 'Next.js' },
     ]
   },
   {
     title: 'Databases & Cloud',
     icons: [
       { icon: <i className="devicon-firebase-plain colored" />, label: 'Firebase' },
+      { icon: 
+        <i class="devicon-vercel-original-wordmark colored" color='white'></i>
+      , label: 'Vercel' },
     ]
   },
   {
@@ -40,7 +46,10 @@ const skillsGrid = [
     title: 'Design Tools',
     icons: [
       { icon: <i className="devicon-figma-plain colored" />, label: 'Figma' },
-      { icon: <i className="devicon-photoshop-plain colored" />, label: 'Photoshop' },
+      { icon: 
+        
+        <i class="devicon-framermotion-original-wordmark colored"></i>
+      , label: 'Framer' },
 
     ]
   },
@@ -50,11 +59,6 @@ const skillsGrid = [
       { icon: <span role="img" aria-label="Teamwork">🤝</span>, label: 'Teamwork' },
       { icon: <span role="img" aria-label="Communication">💬</span>, label: 'Communication' },
       { icon: <span role="img" aria-label="Problem Solving">🧠</span>, label: 'Problem Solving' },
-    ]
-  },
-  {
-    title: 'Others',
-    icons: [
     ]
   },
 ];
