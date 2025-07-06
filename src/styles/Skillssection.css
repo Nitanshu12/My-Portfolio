@@ -7,41 +7,76 @@
     justify-content: center;
     text-align: center;
 }
-.skills-section,
-.skills-cards,
-.skills-card {
-  overflow: visible !important;
-  height: auto !important;
-  max-height: none !important;
+.skills-section {
+  /* Removed overflow and forced height to prevent scrollbars */
+  background: var(--bg-secondary);
+  border-radius: 24px;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.04);
+  margin-bottom: 48px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.skills-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 24px;
-    margin-top: 40px;
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
 }
-.skills-card {
-    background: var(--bg-secondary);
-    padding: 24px;
-    border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
+.skills-grid-card {
+  background: var(--bg-secondary);
+  border-radius: 20px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+  padding: 28px 20px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-.skills-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+.skills-grid-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
 }
-.skills-card-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 64px;
-    height: 64px;
-    border-radius: 16px;
-    margin-bottom: 18px;
-    font-size: 2.2rem;
-    color: #fff;
+.skills-grid-title {
+  font-size: 1.18rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+  letter-spacing: 0.5px;
+}
+.skills-grid-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 14px;
+  justify-content: center;
+}
+.skills-grid-icon {
+  background: var(--bg-tertiary, #23263a);
+  border-radius: 12px;
+  padding: 13px 13px 9px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: background 0.2s, transform 0.2s;
+}
+.skills-grid-icon:hover {
+  background: var(--primary, #7f5af0);
+  color: #fff;
+  transform: scale(1.08);
+}
+@media (max-width: 700px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
+  .skills-grid-card {
+    padding: 18px 10px 14px 10px;
+  }
+}
+
   .skill-icon-gradient1 {
     background: linear-gradient(135deg, #ffb86c 0%, #ff6a6a 100%);
   }
