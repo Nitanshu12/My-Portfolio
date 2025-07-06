@@ -12,21 +12,21 @@ const projects = [
         description: 'A web-based AI image generator that transforms text prompts into high-quality visuals instantly.',
         image: image1,
         demoLink: 'https://ai-image-generator-seven-ivory.vercel.app/',
-        codeLink: 'https://github.com/yourusername/ai-image-generator'
+        codeLink: 'https://github.com/Nitanshu12/Ai-image-generator'
     },
     {
         title: 'Stride-footwear',
         description: 'An e-commerce footwear site with product listings and a dynamic cart built using React and Tailwind.',
         image: image2,
         demoLink: 'https://stride-footwear-xx3h.vercel.app/',
-        codeLink: 'https://github.com/yourusername/stride-footwear'
+        codeLink: 'https://github.com/Nitanshu12/Stride-footwear'
     },
     {
         title: 'Reliant Renewables',
         description: 'A solar solutions platform for Reliant Renewables, featuring project showcases, all built using React',
         image: image4,
         demoLink: 'https://www.reliantrenewables.in/',
-        codeLink: 'https://github.com/yourusername/reliant-renewables'
+        codeLink: 'https://github.com/Nitanshu12/reliant-solar'
     }
 ]
 
