@@ -2,22 +2,31 @@ import { motion } from 'framer-motion';
 import '../styles/Projects.css';
 import React from 'react';
 import image from '../assets/image.png'
+import image1 from '../assets/image1.png'
+import image2 from '../assets/image2.png'
+import image4 from '../assets/image4.png'
 
 const projects = [
     {
-        title: 'Project 1',
-        description: 'Description 1',
-        image: image
+        title: 'AI-image-generator',
+        description: 'A web-based AI image generator that transforms text prompts into high-quality visuals instantly.',
+        image: image1,
+        demoLink: 'https://ai-image-generator-seven-ivory.vercel.app/',
+        codeLink: 'https://github.com/yourusername/ai-image-generator'
     },
     {
-        title: 'Project 2',
-        description: 'Description 2',
-        image: image
+        title: 'Stride-footwear',
+        description: 'An e-commerce footwear site with product listings and a dynamic cart built using React and Tailwind.',
+        image: image2,
+        demoLink: 'https://stride-footwear-xx3h.vercel.app/',
+        codeLink: 'https://github.com/yourusername/stride-footwear'
     },
     {
-        title: 'Project 3',
-        description: 'Description 3',
-        image: image
+        title: 'Reliant Renewables',
+        description: 'A solar solutions platform for Reliant Renewables, featuring project showcases, all built using React',
+        image: image4,
+        demoLink: 'https://www.reliantrenewables.in/',
+        codeLink: 'https://github.com/yourusername/reliant-renewables'
     }
 ]
 
@@ -37,8 +46,8 @@ const Projects = () => {
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
                         <div className='buttons'>
-                            <a href="https://example.com/demo" target="_blank" rel="noopener noreferrer" className="project-card-cta-btn">Demo</a>
-                            <a href="https://example.com/code" target="_blank" rel="noopener noreferrer" className="project-card-cta-btn">Code</a>
+                            <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="project-card-cta-btn">Demo</a>
+                            <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="project-card-cta-btn">Code</a>
                         </div>
                     </div>
                 ))}

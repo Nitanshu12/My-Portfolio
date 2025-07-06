@@ -6,16 +6,17 @@ import '../styles/AssistSection.css';
 
 const cards = [
   {
-    icon: <FaCode size={36} />, title: 'Web Development', desc: 'Modern, responsive websites built with latest technologies',
-    gradient: 'card-icon-gradient1'
+    icon: <FaComments size={36} />, title: 'UX Research', desc: 'Unlock valuable user insights and feedback to make your product truly intuitive and effective. I help you validate ideas, identify pain points, and shape user-centered solutions for better results.',
+    gradient: 'card-icon-gradient3'
   },
   {
-    icon: <FaPaintBrush size={36} />, title: 'UI/UX Design', desc: 'Intuitive interfaces that delight users and drive results',
+    icon: <FaPaintBrush size={36} />, title: 'UI Design', desc: 'Turn your concepts into visually striking, on-brand interfaces that delight users at every step. From wireframes to high-fidelity mockups, I ensure your product looks polished and feels seamless.',
     gradient: 'card-icon-gradient2'
   },
+  
   {
-    icon: <FaComments size={36} />, title: 'Consultation', desc: 'Strategic guidance for your digital transformation',
-    gradient: 'card-icon-gradient3'
+    icon: <FaCode size={36} />, title: 'Web Development', desc: 'Transform ideas into fast, responsive, and scalable websites that work beautifully on any device. I build secure, high-performance sites tailored to your business goals ready to launch and grow.',
+    gradient: 'card-icon-gradient1'
   },
 ];
 
