@@ -11,11 +11,18 @@ const experiences = [
     date: '2024 - Present',
   },
   {
-    title: 'Reliant Renewables',
-    location: 'Delhi, India',
-    institution: 'Newton School of Technology',
-    description: `I have recently started my journey in computer engineering and am currently in my freshman year. I'm eager to learn, explore new technologies, and build a strong foundation in this field. Excited for the challenges and opportunities ahead!`,
-    date: '2024 - Present',
+    title: 'Internship',
+    location: 'Sonipat, Haryana',
+    institution: 'Rishihood University',
+    description: `Completed a hands-on internship at Indic Summer School, contributing to program planning, execution, and on-ground coordination. Gained valuable experience in organizing events, collaborating with teams, and supporting successful student programs.`,
+    date: 'March-June 2025',
+  },
+  {
+    title: 'Internship',
+    location: 'Pune, Maharashtra',
+    institution: 'Reliant Renewables Pvt Ltd',
+    description: `Recently began my journey in computer engineering and joined Reliant Renewables as a Web Developer & UI/UX Intern. I’m eager to learn, explore new technologies, and build a strong foundation in software development and design. Excited for the challenges and opportunities ahead!`,
+    date: 'May-Aug 2025',
   },
   // Add more experiences here if needed
 ];

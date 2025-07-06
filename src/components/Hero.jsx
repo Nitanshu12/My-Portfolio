@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Hero.css';
 import heroImage from '../assets/logo.jpeg';
 import { IoDiamond } from "react-icons/io5";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -23,6 +24,16 @@ const Hero = () => {
           </a>
           <a href="#projects" className="btn btn-secondary">
             View My Work
+          </a>
+        </div>
+        <div className="hero-social-links">
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+            <FaGithub />
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+            <FaLinkedin />
+            <span>LinkedIn</span>
           </a>
         </div>
       </div>

@@ -101,7 +101,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <a href="#contact" className={`navbar-cta${menuOpen ? ' open' : ''}`} onClick={() => handleNavClick('contact')}>Hire Me</a>
+        <a href="#contact" className={`navbar-cta${menuOpen ? ' open' : ''}`} onClick={() => handleNavClick('contact')}>Download Resume</a>
       </nav>
     </header>
   );
